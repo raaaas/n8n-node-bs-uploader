@@ -1,0 +1,49 @@
+{
+  "nodeProperties": [
+    {
+      "displayName": "Operation",
+      "name": "operation",
+      "type": "options",
+      "default": "uploadMedia",
+      "options": [
+        {
+          "name": "Upload Media",
+          "value": "uploadMedia",
+          "description": "Upload media to Bluesky",
+          "action": "Upload media to Bluesky"
+        }
+      ],
+      "description": "The operation to perform."
+    },
+    {
+      "displayName": "Binary Data",
+      "name": "binaryData",
+      "type": "string",
+      "default": "data",
+      "description": "The name of the binary field to use for the upload.",
+      "required": true
+    }
+  ],
+  "code": {
+    "require": [
+      {
+        "file": "BlueskySocial.node.ts",
+        "className": "BlueskySocial"
+      }
+    ]
+  },
+  "description": "Upload media to Bluesky Social",
+  "displayName": "Bluesky Social",
+  "group": [
+    "community"
+  ],
+  "icon": "file:bluesky.svg",
+  "inputs": [
+    "main"
+  ],
+  "name": "blueskySocial",
+  "outputs": [
+    "main"
+  ],
+  "version": 1
+}

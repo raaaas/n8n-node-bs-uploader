@@ -6,3 +6,11 @@ dist
 npm-debug.log*
 yarn.lock
 .vscode/launch.json
+.history
+.vscode
+.env
+mytest*
+*.jpg
+*-lock.json
+pnpm-lock.yaml
+*.md
